@@ -8,7 +8,7 @@ const BookingForm = (props) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        props.SubmitForm(e);
+        props.submitForm(e);
     }
 
     const handleChange = (e) => {
@@ -49,7 +49,7 @@ const BookingForm = (props) => {
                             <label htmlFor='book-guests'>
                                 Number of Guests:
                             </label>
-                            <input id='book-guests' min='1' value={guests} onChange={(e) => setGuests(e.target.value)}/>
+                            <input type='number' id='book-guests' min='1' value={guests} onChange={(e) => setGuests(e.target.value)}/>
                         </div>
 
                         {/* occasion type */}

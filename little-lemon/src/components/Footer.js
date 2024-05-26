@@ -11,6 +11,43 @@ const Footer = () => {
                         We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.
                     </p>
                 </div>
+
+                <div>
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li>
+                            Address: <br/> 4390 Vesta Drive<br/> Chicago, IL
+                        </li>
+                        <li>
+                            Phone: <br/> 773-555-8965
+                        </li>
+                        <li>
+                            Email: <br/> LittleLemon@LittleLemon.com
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>Visit Us On Social Media</h3>
+                    <ul>
+                        <li>
+                            <a href='/'>
+                                Facebook
+                            </a>
+                        </li>
+                        <li>
+                            <a href='/'>
+                                Instagram
+                            </a>
+                        </li>
+                        <li>
+                            <a href='/'>
+                                Twitter
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                
                 <div>
                     <h3>
                         Navigation
@@ -44,42 +81,6 @@ const Footer = () => {
                         <li>
                             <a href='/'>
                                 Login
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h3>Contact Us</h3>
-                    <ul>
-                        <li>
-                            Address: <br/> 4390 Vesta Drive<br/> Chicago, IL
-                        </li>
-                        <li>
-                            Phone: <br/> 773-555-8965
-                        </li>
-                        <li>
-                            Email: <br/> LittleLemon@LittleLemon.com
-                        </li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h3>Visit Us On Social Media</h3>
-                    <ul>
-                        <li>
-                            <a href='/'>
-                                Facebook
-                            </a>
-                        </li>
-                        <li>
-                            <a href='/'>
-                                Instagram
-                            </a>
-                        </li>
-                        <li>
-                            <a href='/'>
-                                Twitter
                             </a>
                         </li>
                     </ul>
