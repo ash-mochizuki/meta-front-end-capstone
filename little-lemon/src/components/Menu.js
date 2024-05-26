@@ -10,8 +10,8 @@ const Menu = () => {
                 <button>Order Menu</button>
             </div>
 
-            {/* menu cards */}
         </div>
+            {/* menu cards */}
     );
 };
 
